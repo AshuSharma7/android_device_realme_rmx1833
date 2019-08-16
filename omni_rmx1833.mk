@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := rmx1833
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Allow Missing Dependencies
 ALLOW_MISSING_DEPENDENCIES=true
